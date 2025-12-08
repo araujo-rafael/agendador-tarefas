@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@Document("tarefa")
+@Document("tarefas")
 public class TarefasEntity {
 
     @Id
@@ -20,7 +20,7 @@ public class TarefasEntity {
     private String descricao;
     private LocalDateTime dataCriacao;
     private LocalDateTime dataEvento;
-    private String emailUSuario;
+    private String emailUsuario;
     private LocalDateTime dataAlteracao;
     private StatusNotificacaoEnum statusNotificacaoEnum;
 
